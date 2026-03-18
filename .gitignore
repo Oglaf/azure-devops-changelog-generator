@@ -1,0 +1,30 @@
+# Azure DevOps Changelog Generator - Git Ignore
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.log
+
+# Azure DevOps PAT files (never commit!)
+*.pat
+pat.txt
+*credentials*
+*secrets*
+
+# PowerShell
+*.ps1~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Skill eval outputs (local testing)
+*-workspace/
+eval-viewer/
+mock-run/
