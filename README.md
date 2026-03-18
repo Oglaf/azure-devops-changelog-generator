@@ -27,10 +27,28 @@ The skill will ask for:
 - Azure DevOps Personal Access Token (PAT) stored in `$env:DEVOPS_PAT`
 - PowerShell 5.1+
 
+## Install
+
+Install the skill locally using `npx skills` (requires Node.js / npm):
+
+```powershell
+# install from local path
+npx skills install ./skills/azure-devops-changelog-generator
+```
+
+You can also install directly from GitHub.
+
+```powershell
+# GitHub shorthand (if supported by the CLI)
+npx skills install github:Oglaf/azure-devops-changelog-generator
+
+# HTTPS git URL
+npx skills install https://github.com/Oglaf/azure-devops-changelog-generator.git
+```
+
 ## Project Structure
 
 ```
-.
 ├── skills/
 │   └── azure-devops-changelog-generator/
 │       ├── SKILL.md              # Skill definition

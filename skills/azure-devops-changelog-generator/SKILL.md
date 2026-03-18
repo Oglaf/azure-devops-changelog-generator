@@ -2,7 +2,7 @@
 name: azure-devops-changelog-generator
 title: "Azure DevOps Release Changelog Generator"
 description: "Generate release notes and cards from Azure DevOps TFVC changesets or Git commits. Trigger this skill whenever the user mentions TFVC changesets, Git commits, Azure DevOps work items, 'generate changelog', 'cards.md', or 'release notes'. The skill asks for the Azure DevOps organization name, fetches work items via Azure DevOps APIs (requires $DEVOPS_PAT), analyzes descriptions and discussion, and produces cards.md and changelog.md grouped by Azure DevOps project name."
-author: "Your Name"
+author: "Christian Fleishmann Silva (Oglaf)"
 version: "2.0.0"
 tags:
   - azure-devops
